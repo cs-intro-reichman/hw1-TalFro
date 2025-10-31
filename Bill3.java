@@ -5,7 +5,7 @@ public class Bill3 {
 	    String name1 = args[0];
 		String name2 = args[1];
 		String name3 = args[2];
-		int bill = Integer.parseInt(args[3]);
+		double bill = Integer.parseInt(args[3]);
 
 		double bill3 = Math.ceil(bill/3);
 
