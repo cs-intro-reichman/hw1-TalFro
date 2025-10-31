@@ -10,7 +10,7 @@ public class TimeFormat {
 			System.out.print(hours+":");
 		}
 		else{
-			System.err.print("0"+(hours-12)+":");
+			System.out.print("0"+(hours-12)+":");
 		}
 
 		if (minutes>9) {
